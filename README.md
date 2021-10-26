@@ -5,9 +5,11 @@ Project for the Machine Learning course @CentraleSupélec
 
 :desktop_computer: Based on the [Kaggle Challenge Drinking_Water_Potability](https://www.kaggle.com/artimule/drinking-water-probability)
 
+:page_facing_up: [Overleaf report](https://fr.overleaf.com/read/jznbtvznsrfb)
+
 **Consignes**: 
 Un rapport de 5-6 pages maximum (page de garde non incluse):
-- La page de garde du rapport doit contenir les noms, prénoms des membres du trinôme, la date, l'intitulé du cours et du projet, la date.
+- La page de garde du rapport doit contenir les noms, prénoms des membres du trinôme, la date, l'intitulé du cours et du projet.
 - Le contenu du rapport doit être composé 
     - (1) d'une introduction (exposition du contexte et des motivations, de la problématique traitée et une annonce de votre solution à celle-ci), 
     - (2) une partie par bloc de travail 
