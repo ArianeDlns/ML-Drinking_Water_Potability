@@ -1,0 +1,7 @@
+sklearn
+numpy
+matplotlib
+seaborn
+statsmodels
+plomber
+jupyter
