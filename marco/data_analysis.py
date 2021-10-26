@@ -22,7 +22,7 @@ import pandas as pd
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 
-dataset = pd.read_csv("drinking_water_potability.csv")
+dataset = pd.read_csv("../drinking_water_potability.csv")
 dataset.head()
 
 
