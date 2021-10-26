@@ -1,22 +1,24 @@
+# +
 # Set full width on jupyter notebook navigator
 from IPython.core.display import HTML, display
 
 display(HTML("<style>.container { width:100% !important; }</style>"))
 
+# +
 # For dark mode only, font in white
 import matplotlib as mpl
 
 mpl.rcParams.update(
     {"axes.labelcolor": "white", "xtick.color": "white", "ytick.color": "white"}
 )
+# -
 
 # # Analysis of the data
 
 # ## Loading and selection of the Training set
 
-import matplotlib.pyplot as plt
-
 # +
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -79,9 +81,8 @@ print(train_set.isna().sum(axis=0).sort_values(ascending=False))
     train_set.isna().sum(axis=0).sort_values(ascending=False) / train_set.shape[0] * 100
 ).round()
 
-from functools import reduce
-
 # +
+from functools import reduce
 from itertools import combinations
 
 missing_columns = ["Sulfate", "ph", "Trihalomethanes"]
@@ -114,9 +115,6 @@ pd.Series(counts).sort_values(ascending=False)
 # - ph mostly missing alone too
 #
 
-# +
-OPTION = ("Sulfate",)
-
 for option in options:
     sub_df = train_set[
         reduce(
@@ -137,4 +135,3 @@ for option in options:
     )
     for i, col in enumerate(sub_df.columns):
         sns.histplot(data=sub_df, x=col, ax=axes[i % 2, i // 2], hue="Potability")
-# -
