@@ -17,13 +17,10 @@ mpl.rcParams.update(
 
 # ## Loading and selection of the Training set
 
-# +
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from sklearn.model_selection import train_test_split
-
-# -
 
 dataset = pd.read_csv("drinking_water_potability.csv")
 dataset.head()
@@ -61,13 +58,7 @@ x.plot.bar()
 
 # Decision: We remove waters with ph <= 1 or ph>=13 and Potability=1
 # Because not really possible in real life
-def process_remove_outliers_ph(df: pd.DataFrame) -> pd.DataFrame:
-    """Remove waters with ph <= 1 or ph>13 and potability=1."""
-    df = df[
-        ~((df["Potability"] == 1) & (df["ph"].apply(lambda x: x <= 1 or x >= 13)))
-    ].copy()
-    return df
-
+from utils import process_remove_outliers_ph
 
 print(train_set.shape)
 train_set = process_remove_outliers_ph(train_set)
