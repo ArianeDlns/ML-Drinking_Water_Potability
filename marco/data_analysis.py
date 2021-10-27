@@ -3,15 +3,16 @@
 from IPython.core.display import HTML, display
 
 display(HTML("<style>.container { width:100% !important; }</style>"))
+# -
 
-# +
 # For dark mode only, font in white
 import matplotlib as mpl
 
+"""
 mpl.rcParams.update(
     {"axes.labelcolor": "white", "xtick.color": "white", "ytick.color": "white"}
 )
-# -
+"""
 
 # # Analysis of the data
 
