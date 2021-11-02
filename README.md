@@ -1,17 +1,17 @@
-# :potable_water: Drinking Water Potability Report
+# :potable_water:  Drinking Water Potability Report :potable_water:
 Project for the Machine Learning course @CentraleSupélec
 
  [Jérôme Auguste](https://github.com/jerome-auguste) - [Marco Boucas](https://github.com/marcoboucas) - [Ariane Dalens](https://github.com/ArianeDlns) 
 
-:desktop_computer: Based on the [Kaggle Challenge Drinking_Water_Potability](https://www.kaggle.com/artimule/drinking-water-probability)
+Based on the [Kaggle Challenge Drinking_Water_Potability](https://www.kaggle.com/artimule/drinking-water-probability)
 
-### :chart_with_upwards_trend: Context
+### Context
 Access to safe drinking water is essential to health, a basic human right, and a component of effective policy for health protection. This is important as a health and development issue at a national, regional, and local level. In some regions, it has been shown that investments in water supply and sanitation can yield a net economic benefit, since the reductions in adverse health effects and health care costs outweigh the costs of undertaking the interventions.
 
-### :file_folder: Content
+### Content
 The drinking_water_potability.csv file contains water quality metrics for 3276 different water bodies.
 
-:page_facing_up: [Overleaf report](https://fr.overleaf.com/read/jznbtvznsrfb)
+[Overleaf report](https://fr.overleaf.com/read/jznbtvznsrfb)
 
 ## :package: Structure
 
