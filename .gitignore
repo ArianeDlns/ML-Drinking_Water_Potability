@@ -131,3 +131,6 @@ dmypy.json
 
 # data
 drinking_water_potability.csv
+_old/
+/_old
+/figs
