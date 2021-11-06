@@ -12,7 +12,7 @@ Access to safe drinking water is essential to health, a basic human right, and a
 ### Dataset 
 The dataset is available at this link [drinking_water_potability.csv](https://www.kaggle.com/artimule/drinking-water-probability/download). The file file contains water quality metrics for 3276 different water bodies. The easiest way to run the following notebooks using this dataset is to unzip the csv file in the root folder of the repo.
 
-|                     |     Type     | count |   mean   |   min  |    max   |
+|       Features      |     Type     | count |   mean   |   min  |    max   |
 |:-------------------:|:------------:|:-----:|:--------:|:------:|:--------:|
 | ph                  | float        | 2785  | 7,08     | 0      | 14,00    |
 | Hardness            | float        | 3276  | 196,37   | 47,43  | 323,12   |
