@@ -30,13 +30,13 @@ The dataset is available at this link [drinking_water_potability.csv](https://ww
 ## :package: Structure of the project
 
 First, we sought to visualise our data, to study correlations, missing data and outliers. 
-TThis led to an exploration and visualisation of our data in the notebook [data_exploration_and_visualization.ipynb](https://github.com/ArianeDlns/ML-Drinking_Water_Potability/blob/main/Data_exploration_and_visualization.ipynb). 
+This led to an exploration and visualisation of our data in the notebook [data_exploration_and_visualization.ipynb](https://github.com/ArianeDlns/ML-Drinking_Water_Potability/blob/main/Data_exploration_and_visualization.ipynb). 
 
 After processing and preprocessing the data we compared and finetuned different models in the notebook [pipeline.ipynb](https://github.com/ArianeDlns/ML-Drinking_Water_Potability/blob/main/Pipeline.ipynb) which led us to our final model
 
 ## :trophy: Winning Model for this dataset
 
-After our research on which model is the most relevant for this problem, we selected 3 different well-performing algorithms (K-NN, SVM and Random Forest). Each one was then fine-tuned and work collaboratively in a voting classifier.
+After our research on which model is the most relevant for this problem, we selected 3 different well-performing algorithms (K-NN, SVM and Random Forest). Each one has been finetuned and work collaboratively in a voting classifier.
 
 ## References
 
