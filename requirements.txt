@@ -3,5 +3,5 @@ numpy
 matplotlib
 seaborn
 statsmodels
-plomber
 jupyter
+codecarbon
